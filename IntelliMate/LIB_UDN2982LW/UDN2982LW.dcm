@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UDN2982LW
+D 8 Channel Source Driver
+K
+F http://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ashx
+$ENDCMP
+#
+#End Doc Library
