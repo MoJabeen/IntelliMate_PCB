@@ -326,6 +326,14 @@
     [
       "d2cbed07-112f-4ca6-afcf-4062e0b58893",
       ""
+    ],
+    [
+      "5a0421ef-5bf1-40f6-9e02-e533a7a74d6f",
+      "Power"
+    ],
+    [
+      "9fd3510d-4783-4a5a-9659-448e8c5e3812",
+      "Actuators"
     ]
   ],
   "text_variables": {}
