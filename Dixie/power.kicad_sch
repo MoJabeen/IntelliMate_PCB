@@ -2531,7 +2531,12 @@
     (pin "2" (uuid 1cae4b3f-31e9-4560-bca7-72dc3c841ec2))
     (pin "3" (uuid 5eacbef7-2182-417e-872e-1a06ebf7272b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q11") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q11") (unit 1)
         )
@@ -2563,7 +2568,12 @@
     (pin "1" (uuid ca1ec912-a3a5-493e-aeca-8a6f4a6d7f36))
     (pin "2" (uuid ee035343-0dbb-4ab8-a96f-0074047156a8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R12") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R12") (unit 1)
         )
@@ -2594,7 +2604,12 @@
     )
     (pin "1" (uuid c4f5a365-8ce4-44c6-a2f9-3718619038ac))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR04") (unit 1)
         )
@@ -2620,7 +2635,12 @@
     (pin "1" (uuid c1297ade-e213-484a-8842-8f5012ea89a3))
     (pin "2" (uuid 228d80d0-86ed-4a53-b4e0-1083b99490f3))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R1") (unit 1)
         )
@@ -2665,7 +2685,12 @@
     (pin "8" (uuid 486f8a20-ae0e-4cc2-9b1f-5ed153515c78))
     (pin "9" (uuid 25359bb2-4f00-4b24-908a-cdcbd2790c6c))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "U2") (unit 1)
         )
@@ -2694,7 +2719,12 @@
     (pin "1" (uuid 1e020123-dca7-4fcf-8d04-267b0089910b))
     (pin "2" (uuid bc215a2a-ed7f-4cb0-8a58-df27e1fc8746))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C110") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C110") (unit 1)
         )
@@ -2722,7 +2752,12 @@
     )
     (pin "1" (uuid 483eecd4-c5bc-4523-a1bf-4a92baebbab8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR017") (unit 1)
         )
@@ -2748,7 +2783,12 @@
     (pin "1" (uuid cdf5f0da-60de-4b49-8b50-3dcd2380f9d6))
     (pin "2" (uuid 826cac54-02b1-45ef-aee5-cd4b992f220f))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R19") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R19") (unit 1)
         )
@@ -2780,7 +2820,12 @@
     (pin "1" (uuid ef8b25b7-1e5e-4afa-8744-503b5f783899))
     (pin "2" (uuid 8f4b8bd9-6b91-418b-86da-e14e27a4ca53))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C43") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C43") (unit 1)
         )
@@ -2810,7 +2855,12 @@
     (pin "2" (uuid ea4e3291-91cf-4a05-aed4-38ec74ac92a3))
     (pin "3" (uuid bc7ccf44-0cf2-4aed-ae78-6a6cae19bef5))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q16") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q16") (unit 1)
         )
@@ -2841,7 +2891,12 @@
     )
     (pin "1" (uuid 83262a4b-edc4-48d0-a776-ff8df7f34a18))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR07") (unit 1)
         )
@@ -2872,7 +2927,12 @@
     (pin "3" (uuid 0c4d1482-9509-4e5c-95d3-7f7d4346ae93))
     (pin "4" (uuid 267bf92c-8603-4555-b331-3ced54915c57))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "D101") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "D101") (unit 1)
         )
@@ -2901,7 +2961,12 @@
     (pin "1" (uuid 908c7cb5-3633-42db-9b64-41e92aaa9011))
     (pin "2" (uuid 5e7cc77d-8503-4998-9d85-b54ff3b7285b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R18") (unit 1)
         )
@@ -2932,7 +2997,12 @@
     )
     (pin "1" (uuid ea582716-3281-46e0-adb0-e24f240431f4))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR05") (unit 1)
         )
@@ -2957,7 +3027,12 @@
     )
     (pin "1" (uuid 2cb14bdb-f79e-4dd6-8835-0f212d4a0a02))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR012") (unit 1)
         )
@@ -2984,7 +3059,12 @@
     (pin "2" (uuid ed3fcbc9-c724-43db-bc82-7c2ae99e1f4f))
     (pin "3" (uuid 1c9dcea5-949d-4b68-801f-9b17fe8045ee))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q7") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q7") (unit 1)
         )
@@ -3013,7 +3093,12 @@
     (pin "1" (uuid 2755dec6-27f1-4f54-8240-fcd82464a2d7))
     (pin "2" (uuid 81e731f8-153d-4233-8fc3-1a6bcb254d34))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R10") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R10") (unit 1)
         )
@@ -3046,7 +3131,12 @@
     (pin "2" (uuid 806deef8-1f11-4119-ad3e-58d31ea7cb68))
     (pin "3" (uuid aa9e6359-a407-4903-a1c0-637343677225))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q10") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q10") (unit 1)
         )
@@ -3077,7 +3167,12 @@
     )
     (pin "1" (uuid 789bbffc-dbf1-4bbf-a731-7562e6a24599))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR010") (unit 1)
         )
@@ -3106,7 +3201,12 @@
     (pin "1" (uuid 273fa920-c025-4ab2-997f-726f1d694cb5))
     (pin "2" (uuid 60f48ea1-0942-4604-8d06-7c1befde83e8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R14") (unit 1)
         )
@@ -3139,7 +3239,12 @@
     (pin "2" (uuid 8a5c21b4-0ffa-41c6-a035-4a22b35111c0))
     (pin "3" (uuid 4fa60dc0-8e4c-42c8-b3d2-faab3e12184c))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q5") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q5") (unit 1)
         )
@@ -3168,7 +3273,12 @@
     (pin "1" (uuid 96f0effa-b00f-4470-9527-1638dc085d75))
     (pin "2" (uuid 2dbf19cf-4d0b-4ef8-aa4f-76fd1c84f924))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "R29") (unit 1)
         )
@@ -3196,7 +3306,12 @@
     (pin "3" (uuid 42c47dc1-4ba4-474c-a7f9-ef8563ce516e))
     (pin "4" (uuid c1e5cf59-0cbe-46de-b7a4-71f56fc0719e))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "D104") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "D104") (unit 1)
         )
@@ -3225,7 +3340,12 @@
     (pin "1" (uuid 2095cf3a-57f8-4d29-bf17-bb47eb0a35dc))
     (pin "2" (uuid d6fd963e-85ef-4853-8cb0-a2eb745c50eb))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R20") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R20") (unit 1)
         )
@@ -3257,7 +3377,12 @@
     (pin "1" (uuid 8a540184-08a0-458c-af55-fd29ad83e12f))
     (pin "2" (uuid 7dc269e2-afc3-4a9f-8026-374cc7fe40c5))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R17") (unit 1)
         )
@@ -3289,7 +3414,12 @@
     (pin "1" (uuid 3c27a715-0b08-4358-bab0-23c073a3739b))
     (pin "2" (uuid daa91505-7ba5-4106-b92a-00d96db0116b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R13") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R13") (unit 1)
         )
@@ -3321,7 +3451,12 @@
     (pin "1" (uuid 4225d35c-e201-454c-a15e-fcc653370989))
     (pin "2" (uuid 668b183f-0c21-4e2e-baf1-bc01fc3bf23c))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R23") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R23") (unit 1)
         )
@@ -3354,7 +3489,12 @@
     (pin "2" (uuid 33490377-ead3-4070-a330-19107cb81645))
     (pin "3" (uuid 10a91360-659b-433c-ac41-4b02d318bba5))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q9") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q9") (unit 1)
         )
@@ -3385,7 +3525,12 @@
     )
     (pin "1" (uuid 486be714-2cbf-465e-b380-9721c8fdf05c))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR020") (unit 1)
         )
@@ -3411,7 +3556,12 @@
     (pin "1" (uuid dd9353be-8c0a-4fa5-81c2-26a75657367f))
     (pin "2" (uuid 74d8bf13-e8db-40c3-ab21-dd207f6ac044))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C44") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C44") (unit 1)
         )
@@ -3440,7 +3590,12 @@
     (pin "1" (uuid 049e104b-9918-431e-8cd8-81f522be56f9))
     (pin "2" (uuid cce3ee5f-e443-44a5-a5be-b3c461486048))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R22") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R22") (unit 1)
         )
@@ -3472,7 +3627,12 @@
     (pin "1" (uuid 90b4dfd1-3512-4c07-a9a4-a72aa8ad643e))
     (pin "2" (uuid f8b1cf5a-a737-478b-8fbb-f4bbba0c51ff))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R8") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R8") (unit 1)
         )
@@ -3501,7 +3661,12 @@
     (pin "1" (uuid c36c3703-c61b-4e71-9169-7227675f5217))
     (pin "2" (uuid ab6aa351-301e-49a8-954b-f846b48cc964))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R21") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R21") (unit 1)
         )
@@ -3533,7 +3698,12 @@
     (pin "1" (uuid ee9c2a54-f05b-432d-bcfd-99dbbd4b4412))
     (pin "2" (uuid f7d30c3d-4976-456a-a097-c2b0ffc0a31d))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "XICON") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "XICON") (unit 1)
         )
@@ -3562,7 +3732,12 @@
     (pin "1" (uuid 2e621d69-ce03-4953-abf8-3ba464a6cc34))
     (pin "2" (uuid 9ee6cbef-bb96-4e73-8e22-5a596771618b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R5") (unit 1)
         )
@@ -3591,7 +3766,12 @@
     (pin "1" (uuid 500ba24a-ddf2-47c1-9b01-4df846664e1c))
     (pin "2" (uuid aaac473f-6db1-484b-b3d4-f053a0533d44))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "C9") (unit 1)
         )
@@ -3616,7 +3796,12 @@
     )
     (pin "1" (uuid e69d8513-61e1-42fa-aa84-b0469343f565))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR01") (unit 1)
         )
@@ -3645,7 +3830,12 @@
     (pin "1" (uuid 6f15aa46-aad1-47d5-9d5f-8c150a379240))
     (pin "2" (uuid c811f66c-e3f9-48c4-82ea-632ab3967760))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R24") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R24") (unit 1)
         )
@@ -3677,7 +3867,12 @@
     (pin "1" (uuid ccbbe4a6-2eff-477b-8a55-097a864a8621))
     (pin "2" (uuid 125cc566-a51e-4078-b49b-3f6034dbb532))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C102") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C102") (unit 1)
         )
@@ -3706,7 +3901,12 @@
     (pin "1" (uuid fb977212-9644-4f36-ae4b-6b794c954011))
     (pin "2" (uuid b2f462c4-2ee4-4b9f-ada9-eb503c0c4917))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R11") (unit 1)
         )
@@ -3738,7 +3938,12 @@
     (pin "1" (uuid aa604e07-cd69-4df4-b4ec-0b895a1d7f50))
     (pin "2" (uuid abc68cd5-fb36-4e38-87cd-39084698eb46))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R6") (unit 1)
         )
@@ -3767,7 +3972,12 @@
     (pin "1" (uuid 4a39beca-3c5b-4858-abe4-26d1112786ce))
     (pin "2" (uuid 4e76df37-8aa3-4dc0-ba08-21526d5d4d31))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R27") (unit 1)
         )
@@ -3800,7 +4010,12 @@
     (pin "2" (uuid 256273bc-7e8c-4efc-83b6-27f142093201))
     (pin "3" (uuid e0e8cc7c-7f8b-48c3-90f2-b656c012310f))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "J1") (unit 1)
         )
@@ -3829,7 +4044,12 @@
     (pin "1" (uuid 25ea0fb4-d0c3-402b-b7eb-fd2ad80f982c))
     (pin "2" (uuid 6a76a21e-e9f0-4d46-9809-cd2fe5b4ce60))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R3") (unit 1)
         )
@@ -3859,7 +4079,12 @@
     (pin "2" (uuid 4fcb2a06-8b6c-4a62-bf3f-384d3332c2d4))
     (pin "3" (uuid 9bc8724f-1ab1-43a2-88a8-60561a0d1eca))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q6") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q6") (unit 1)
         )
@@ -3887,7 +4112,12 @@
     )
     (pin "1" (uuid 0dc0cd45-2db0-4b02-b774-565c4ed4a2e5))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR016") (unit 1)
         )
@@ -3913,7 +4143,12 @@
     (pin "1" (uuid fcf27a7f-0460-4df5-a8c3-896640ed9bbd))
     (pin "2" (uuid 6c39c24d-5090-411d-9a13-7203f5289d65))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C110") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C110") (unit 1)
         )
@@ -3942,7 +4177,12 @@
     (pin "1" (uuid c1692af1-a493-4e67-a908-e5d72d0a580a))
     (pin "2" (uuid 227bce8d-56d6-405a-bdef-e95aa48f94fb))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "R30") (unit 1)
         )
@@ -3968,7 +4208,12 @@
     (pin "1" (uuid d01db157-61c5-4e49-b9c2-b67acbd86b9a))
     (pin "2" (uuid 6764d053-6f2a-45ae-86b4-67fed1abfb92))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C103") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C103") (unit 1)
         )
@@ -3996,7 +4241,12 @@
     )
     (pin "1" (uuid 01c0b869-8186-4d6d-abc1-25e7fe5f0a9c))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR015") (unit 1)
         )
@@ -4023,7 +4273,12 @@
     (pin "2" (uuid 0e8d6b1d-a676-4cb9-b201-c940925e42c3))
     (pin "3" (uuid 8cc954de-63d0-450f-bb76-61537cfea900))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q14") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q14") (unit 1)
         )
@@ -4054,7 +4309,12 @@
     )
     (pin "1" (uuid 2f0e112f-7e1b-4eef-9b0a-4b4ca78c0bab))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR02") (unit 1)
         )
@@ -4082,7 +4342,12 @@
     )
     (pin "1" (uuid 128a95c9-f5e7-4497-b581-dcea7d092346))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR013") (unit 1)
         )
@@ -4109,7 +4374,12 @@
     (pin "2" (uuid b2a74de6-4d2c-43f4-932e-05eeb9747779))
     (pin "3" (uuid ba985f30-9546-4ad4-a8ae-64abcccaa4ed))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q4") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q4") (unit 1)
         )
@@ -4138,7 +4408,12 @@
     (pin "1" (uuid ea8d9037-7c32-427c-b239-9da4ea9718ee))
     (pin "2" (uuid a95cd8be-b8ef-4d12-919a-5176e3ccf88b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R51") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R51") (unit 1)
         )
@@ -4167,7 +4442,12 @@
     (pin "1" (uuid fae3ace3-f4a9-4869-85b1-c12cb3008149))
     (pin "2" (uuid 6e7b4f32-8bff-4335-b807-883ab8f9baff))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R4") (unit 1)
         )
@@ -4195,7 +4475,12 @@
     )
     (pin "1" (uuid d12d43b8-a54b-4c0f-a1ba-8027fa8805d8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR07") (unit 1)
         )
@@ -4224,7 +4509,12 @@
     (pin "1" (uuid 2c4ba286-113a-4fee-b324-1860bd0ab4da))
     (pin "2" (uuid 42f697fb-7e03-4d47-b14a-a0d3e9fde67f))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R32") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "R32") (unit 1)
         )
@@ -4250,7 +4540,12 @@
     (pin "1" (uuid 69284bd2-ae62-4364-9b38-344e7aa0e621))
     (pin "2" (uuid 683c4af8-81b1-4527-8578-f02ac4b06cd6))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R16") (unit 1)
         )
@@ -4281,7 +4576,12 @@
     )
     (pin "1" (uuid 7b976a2b-6e1e-4418-a41c-df5cd57932fd))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR019") (unit 1)
         )
@@ -4307,7 +4607,12 @@
     (pin "1" (uuid 9995fb6b-7c74-4fd0-a15e-c4db94a0dff7))
     (pin "2" (uuid 05a43281-4288-4766-8722-502b26c90763))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "R31") (unit 1)
         )
@@ -4334,7 +4639,12 @@
     (pin "2" (uuid 1ce98e00-7d8e-4f9d-bf04-b5889c125f73))
     (pin "3" (uuid 6af6ec2d-c429-4fb9-8caa-98857bc666e8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q13") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q13") (unit 1)
         )
@@ -4378,7 +4688,12 @@
     (pin "8" (uuid 287fd267-d47d-4d9f-b5c9-ce10ca0c62ca))
     (pin "9" (uuid 8e4e13f2-ba15-4017-abfa-bb2c497b4977))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "U1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "U1") (unit 1)
         )
@@ -4407,7 +4722,12 @@
     (pin "1" (uuid 7b7ba998-a753-4f2c-8c42-2e448a9deaa1))
     (pin "2" (uuid f00aaf75-3d21-4003-a882-b7187feb2e63))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R25") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R25") (unit 1)
         )
@@ -4439,7 +4759,12 @@
     (pin "1" (uuid 449cb401-5fe4-4df6-bded-9d501f0d6b72))
     (pin "2" (uuid 55d0612b-fc89-4e93-b975-cb662270adb8))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R9") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R9") (unit 1)
         )
@@ -4507,7 +4832,12 @@
     (pin "8" (uuid 482efc1b-15fc-473a-a2da-d4dca7da66b6))
     (pin "9" (uuid cc58361e-6fd4-4348-b228-0bbc20d5b94a))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "IC2") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "IC2") (unit 1)
         )
@@ -4539,7 +4869,12 @@
     (pin "1" (uuid 9f74a6b2-75c9-42b5-896d-111d9d8758b1))
     (pin "2" (uuid 76fd9236-b531-4f9a-beee-36842bf00bde))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R2") (unit 1)
         )
@@ -4574,7 +4909,12 @@
     (pin "1" (uuid dae1524c-9f1b-4da5-af40-0b7afa82bc53))
     (pin "2" (uuid 1a1ff434-6db7-4018-a77a-6f6d7c36389b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "D1") (unit 1)
         )
@@ -4603,7 +4943,12 @@
     (pin "1" (uuid 6ee475d9-b65c-40ad-83c8-9981e0b79927))
     (pin "2" (uuid 067b6568-df1d-4ee2-b54f-138d78af688a))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R26") (unit 1)
         )
@@ -4636,7 +4981,12 @@
     (pin "2" (uuid af204931-c281-4e57-bee0-602699a368d3))
     (pin "3" (uuid 9ca411dc-c9aa-4dc0-a867-bfd443f402f9))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q8") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q8") (unit 1)
         )
@@ -4668,7 +5018,12 @@
     (pin "1" (uuid 3d032ca0-8905-4bcd-b4e3-d1050921bd1a))
     (pin "2" (uuid b3d6ec1a-4071-4238-83a9-3554e717d9c3))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C49") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C49") (unit 1)
         )
@@ -4697,7 +5052,12 @@
     (pin "1" (uuid 031f514f-2ce4-4a95-8a90-03dcb3c235b3))
     (pin "2" (uuid 8ceccb5d-8369-4b14-a49f-18d7e5140e2b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "C101") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "C101") (unit 1)
         )
@@ -4732,7 +5092,12 @@
     (pin "7" (uuid 00453c01-d425-4c1b-a076-15db9e125d52))
     (pin "8" (uuid 0076c2f7-1581-4472-90c4-c6c16179393b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "U3") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "U3") (unit 1)
         )
@@ -4757,7 +5122,12 @@
     )
     (pin "1" (uuid f293c81d-9dd0-4412-b6b8-483b3d2d97e2))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR014") (unit 1)
         )
@@ -4783,7 +5153,12 @@
     (pin "1" (uuid d92d9421-bc8b-4466-bf36-1de0bb5f9e9e))
     (pin "2" (uuid afdd77e3-c67a-4145-932d-86c77cb5fee6))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R15") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R15") (unit 1)
         )
@@ -4814,7 +5189,12 @@
     )
     (pin "1" (uuid 4d88d311-c778-4e4d-9b8f-feaa7b04212d))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR018") (unit 1)
         )
@@ -4841,7 +5221,12 @@
     (pin "2" (uuid b5cbefdc-c8c3-4fe8-811f-29c359e23d18))
     (pin "3" (uuid de9463ca-c31f-413e-928a-3acf18eea429))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q15") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q15") (unit 1)
         )
@@ -4850,35 +5235,6 @@
         )
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/9fd3510d-4783-4a5a-9659-448e8c5e3812"
           (reference "Q15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 44.45 49.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e99e17ac-0dad-43ac-bb51-2a4544bd983b)
-    (property "Reference" "C1" (at 44.45 43.18 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "C" (at 44.45 45.72 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 48.26 48.5648 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 44.45 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 93ce8831-16f7-48f4-8cab-d93ce6f5d1d2))
-    (pin "2" (uuid 63845b1b-fdad-4eed-a67d-c9fdcf438c73))
-    (instances
-      (project "IntelliMate"
-        (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
-          (reference "C1") (unit 1)
-        )
-        (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
-          (reference "C1") (unit 1)
         )
       )
     )
@@ -4901,7 +5257,12 @@
     )
     (pin "1" (uuid 21b74e0f-8653-44d8-a70a-735fce422b6e))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR01") (unit 1)
         )
@@ -4930,7 +5291,12 @@
     (pin "1" (uuid 25061c49-ad31-4a5f-bcfe-e143c7a8a82a))
     (pin "2" (uuid 3d9eb827-b645-4cd3-be3c-c26579ae7b8a))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "R7") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "R7") (unit 1)
         )
@@ -4958,7 +5324,12 @@
     )
     (pin "1" (uuid 931c6b94-bc4d-4947-a4a3-1739c30e7e01))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "#PWR06") (unit 1)
         )
@@ -4985,7 +5356,12 @@
     (pin "2" (uuid a056f97a-4d57-493b-8cb1-ed4f65110704))
     (pin "3" (uuid cdb7bf4e-f947-462e-869f-6ac343866d8b))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q1") (unit 1)
         )
@@ -5013,7 +5389,12 @@
     )
     (pin "1" (uuid 623b3109-61ee-4e0d-9772-53138e2d4b61))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "#PWR04") (unit 1)
         )
@@ -5043,40 +5424,17 @@
     (pin "2" (uuid fb774fb8-8929-4e4d-a876-d03d1852dc2d))
     (pin "3" (uuid 868c72e2-dd08-4a74-940d-47130aab0f61))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q3") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q3") (unit 1)
         )
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
           (reference "Q4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 48.26 49.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f84e8a9b-5c72-48ce-9bf9-ceca2fb33c63)
-    (property "Reference" "#PWR011" (at 54.61 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 52.07 50.165 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Footprint" "" (at 48.26 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 48.26 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2bda2413-c1c2-4c93-adcb-791b7c5a31a7))
-    (instances
-      (project "IntelliMate"
-        (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5101,7 +5459,12 @@
     (pin "2" (uuid 601def90-c595-478f-9a12-9676b6aab002))
     (pin "3" (uuid 72742f45-e3d0-4a32-b583-d240c8a56853))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q2") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q2") (unit 1)
         )
@@ -5169,7 +5532,12 @@
     (pin "8" (uuid 99806cc6-bd7d-4c7f-b0be-fdc683683d28))
     (pin "9" (uuid b3c8058d-5064-4087-a4cc-e645a9b66cef))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "IC1") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "IC1") (unit 1)
         )
@@ -5202,7 +5570,12 @@
     (pin "2" (uuid 7d8b9db2-6b6a-414a-8603-584f57f6ca65))
     (pin "3" (uuid 9301212b-21c3-40e2-b29d-10281091653a))
     (instances
-      (project "IntelliMate"
+      (project "power"
+        (path "/3dde8b80-9444-4449-bb14-9b247af3c884"
+          (reference "Q12") (unit 1)
+        )
+      )
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893"
           (reference "Q12") (unit 1)
         )
@@ -5214,5 +5587,9 @@
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )

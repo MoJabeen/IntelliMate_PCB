@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "IntelliMate Prototype")
+    (title "Dixie VCU")
     (date "2023-05-15")
     (rev "0")
   )
@@ -146,7 +146,7 @@
       (uuid e7f59245-6699-4375-8711-0e0d3c4428a2)
     )
     (instances
-      (project "IntelliMate"
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893" (page "2"))
       )
     )
@@ -223,7 +223,7 @@
       (uuid a401456c-de2a-4963-ad5b-24f47233f193)
     )
     (instances
-      (project "IntelliMate"
+      (project "Dixie"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893" (page "3"))
       )
     )

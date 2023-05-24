@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IntelliMate_footprints")(type "KiCad")(uri "${KIPRJMOD}/IntelliMate_footprints.pretty")(options "")(descr ""))
+)
