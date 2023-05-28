@@ -1,0 +1,4147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/mohammadjabeen/Documents/KiCad/IntelliMate_PCB/IntelliMate/IntelliMate.kicad_sch</source>
+    <date>2023 May 28, Sunday 15:22:40</date>
+    <tool>Eeschema 7.0.2-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IntelliMate Prototype</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2023-05-23</date>
+        <source>IntelliMate.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>actuators.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ir_beam.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>0.1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>5fc62870-be2a-42c1-a56a-3649daafd488</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>121de508-199d-415e-b540-9c6709f49656</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1000µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>d28af4cf-501a-42ab-a3f4-57e56e491ec6</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>6800µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>d330ae6a-8805-4a25-8ae3-431d6dbaa892</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>6800µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>0ee6938e-3a0d-4ad0-aa18-21b65e2ffba1</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>79304a37-d58f-452c-a473-a8cf824b7309</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>99672584-0819-42e2-a88e-d5efd6b51c97</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1p</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>74f2a45d-c9b4-447d-957f-f2d896280cbf</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>47µ</value>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>9005b5c8-8c07-48c0-930d-a615dc139973</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>KBU6G</value>
+      <footprint>Diode_THT:Diode_Bridge_Vishay_KBU</footprint>
+      <datasheet>http://www.vishay.com/docs/88656/kbu6.pdf</datasheet>
+      <libsource lib="Diode_Bridge" part="KBU6G" description="Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package"/>
+      <property name="ki_keywords" value="rectifier acdc"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>1676c7bf-e092-4055-b102-0e3d131fca2f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>KBU6G</value>
+      <footprint>Diode_THT:Diode_Bridge_Vishay_KBU</footprint>
+      <datasheet>http://www.vishay.com/docs/88656/kbu6.pdf</datasheet>
+      <libsource lib="Diode_Bridge" part="KBU6G" description="Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package"/>
+      <property name="ki_keywords" value="rectifier acdc"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>4e94640f-ad83-488c-84a7-9fe962c50b13</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>cf0f334a-4e99-498e-bdbb-a299dff4a096</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Socket</value>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>8ac7d5dd-6152-47d0-8a17-7f8e6e5968e5</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x08_Pin</value>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>3add0c79-ce8b-45b2-9a31-57a02f5f5b91</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x08_Pin</value>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>d17f803d-18f1-401a-b9da-3f80c1216564</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>d07ddfe7-3045-4fc0-a3fc-4dca477c663c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>f9736561-3e22-4720-96c3-b4020b17315a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>57dae99e-fe0f-44cf-8595-3311bf3ce540</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>f835d003-c6c4-45be-bde7-a585d2d54164</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>3afb04f7-2854-4e14-958d-a4b10e9f1bf7</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>a78814f5-beea-4180-8645-af571c2430d1</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>0332a85e-7511-4dad-b9bd-44c6f0556094</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>4a6d501f-1cd0-4ed5-9e0e-a171f0354bfb</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>fd853560-d9d4-411e-befe-c5a2ecac1207</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>8df9471b-c228-44b2-80d7-fb59505c5a60</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>bc796c7b-140b-41fc-8c0a-fb5095ae46f8</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>Q_NPN_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_NPN_Darlington_BCE" description="NPN Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="NPN Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor NPN Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>ecee676a-aa6d-45d3-85d2-2bfcb4eb22bd</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>Q_PNP_Darlington_BCE</value>
+      <libsource lib="Device" part="Q_PNP_Darlington_BCE" description="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="PNP Darlington transistor, base/collector/emitter"/>
+      <property name="ki_keywords" value="transistor PNP Darlington"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>38f12ba0-401b-4a38-b1eb-660c18f79466</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>9a1b2b8b-af04-41f4-815f-3a37c94fbec8</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>e7d3eaf5-e7f5-45ad-ae39-39e61d215459</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>Q_NMOS_GDS</value>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>12f06de8-5cb4-4103-b2d7-fe56a66ec738</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>866f6f6e-7ae9-4d87-81d1-06a7e020fa4a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>ace8f06f-44ed-438e-8c3c-228816d551c3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>3a1d789f-dcbd-4f5e-adba-9ca719430485</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>035015e0-6b45-4805-b243-fdfa622427fb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>736a8a29-78be-41f7-a8ba-2f95269f6920</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>538917cc-c79c-440b-a0ab-69c833382471</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>457795cc-47d9-48d2-839c-1bef4ef9e934</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>88fecaf3-8bbd-45f0-86c0-0c162da2d90c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>deb48f37-f62a-4511-aad7-120b4c5888bb</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1.87k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>acca5b49-39b9-4f48-b431-37ff1b0190d0</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>b316dac7-7cd4-4027-9d61-9bc881b1cea9</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>eae9351a-e609-4420-8d15-d41b98da39c5</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>52c8638a-469d-4b6f-896c-927c8e7d3d6d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>0892bdc2-9a94-471c-bed0-cdf3b18c0586</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>39.2k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>ce44f975-a90c-4c16-a956-43fa3c07fc91</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>23a481c7-3b1d-4d16-b5b1-a8b48b36c135</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>1084d8eb-567d-4bc9-b6e3-39ed234394be</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>6cfdf821-4f32-4a72-a59d-9192d20d2952</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>8c37f54b-5b22-464a-b542-1c9a3dce9d4e</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>5124bf60-9fc2-4a28-b1c4-762b0c5fcc5c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>6e8fc7eb-7715-4b2c-ac56-9e40eb5be05b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>6.8k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>c4378078-b469-4c58-bf70-ca523442e223</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>62b8b672-45a4-43aa-98ce-4a74db0dd335</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>577ca263-608d-4e34-9545-88862a1d8553</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>77118387-4024-42e9-af9b-e34d73df327d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>c35a2934-2fe9-4478-8aed-2cf0c0e8dead</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>cff41901-cc7b-4e5e-9f74-c0df2ace4551</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4.7k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>8a8345ae-8e81-4e60-8312-c8ac80e79f21</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>4d026a8e-f0bc-484e-91d2-943e4cb25f26</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>51.1</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>90b52dcb-9f3d-4e72-b032-fdbb13a1c0f2</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>2.43k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>bb0aae60-553b-4149-b0a2-ebb91646dc6e</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>7.52k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>b161ff74-9681-4c3a-8ae4-4955fe3eb531</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ULN2803A</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uln2803a.pdf</datasheet>
+      <libsource lib="Transistor_Array" part="ULN2803A" description="Darlington Transistor Arrays, SOIC18/DIP18"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Darlington Transistor Arrays, SOIC18/DIP18"/>
+      <property name="ki_keywords" value="Darlington transistor array"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>0d7a7368-14d7-4c86-bb1f-171779e2be3e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM723_DIP14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm723.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM723_DIP14" description="Linear Regulator (adjustable), DIP-14"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Linear Regulator (adjustable), DIP-14"/>
+      <property name="ki_keywords" value="POWER REGUL"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>c19c1196-3a34-4192-b602-e77bf897073a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM301</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM301" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Operational Amplifier, DIP-8/TO-99-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>da19824d-2c49-4cdb-978d-23c87447e575</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TBD62783A</value>
+      <datasheet>http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&amp;prodName=TBD62783APG</datasheet>
+      <libsource lib="Transistor_Array" part="TBD62783A" description="8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W"/>
+      <property name="ki_keywords" value="relays solenoids lamps steppers servos LEDs"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>6f2c98d5-e0fc-45cf-b488-51304e06b4e5</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TBD62783A</value>
+      <datasheet>http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&amp;prodName=TBD62783APG</datasheet>
+      <libsource lib="Transistor_Array" part="TBD62783A" description="8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W"/>
+      <property name="ki_keywords" value="relays solenoids lamps steppers servos LEDs"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>d3575455-f2ad-4134-a283-45d1cfd4496b</tstamps>
+    </comp>
+    <comp ref="XICON1">
+      <value>0.15</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power/" tstamps="/5a0421ef-5bf1-40f6-9e02-e533a7a74d6f/"/>
+      <tstamps>7290e1a5-8e73-4067-9db6-751c46317599</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>09d51ef8-afa4-4151-b9b5-d1e8759b9779</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>286312e4-3eb6-4d1d-810b-05c2f9e2296d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7cf3360d-3c7d-420f-b7e9-7ede70d3f847</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1fd34322-a94a-4539-9571-7ab6acd5d123</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>39299b45-e861-49ea-8b42-12fba363be98</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>e6d6aa0e-8a6a-44e3-bfd6-dfcb0f041fc9</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>8723eb24-748f-49fa-a8e2-2e7275287cce</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d4d7c42a-a7d7-4107-8ad3-d63835871c06</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>e2440e9f-514b-4d8a-869d-6d584fe7c5b9</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>25c9db9b-52ad-43dd-9a7a-1d4ee31b7e33</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1e33a3e7-09cb-4afd-9a57-ab07557b1eb5</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b239466a-a496-41d8-890b-78bfe35a5261</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>662361c4-d7dd-473b-be3f-ae01f6dd3f2c</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>4285e63d-d1eb-438a-81f0-7911b9d097cf</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>517a2645-8af5-47c4-bb3a-efb8fec876dc</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>338ae402-f7a8-4750-b749-bd9616a725b7</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b046d8c4-0207-47bf-a49c-4be1428628d4</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>deda85a0-874c-4490-a7bf-b5daba61afb2</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>bca43a26-307c-4f01-9125-d1853faa4b07</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>8bfe6f9d-aed3-45c9-9d90-b618c32e2d00</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>5324f83d-eb18-4f6e-8c26-1972e49f1471</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b8e804f0-25a6-4811-81b3-2fff1c046c22</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>bda4cfe4-e46a-4303-80d8-dcaf852367da</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6f0beb40-b2a5-4c7e-a52b-aeed1aa32f04</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>a32de076-7d5a-4762-abf9-0c2dce0449cf</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7e23c042-c10b-44e6-9f53-1cdc8c7452d1</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>605f9d2a-a5bd-492c-be68-14d7294883da</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b053c960-a47a-4c9c-bfa2-0e7cd436611a</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>87f0351f-2689-4199-b745-b9775b777b2b</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>973dfaf8-a973-4a1b-8a7f-a1e14e687552</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>5897f34c-639e-49d5-b97c-231629137755</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1164c366-e455-4ed7-830f-4d4a84f0b3f2</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d1603cbc-1108-483e-9988-2ff5471c3b33</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>398be79b-8e06-42d2-87bd-81fc3fb178fe</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>dc6d0b7c-5145-473f-8fc0-9875a333dde7</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>ba50de01-a72c-4317-8d8f-02896a2df634</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>081c9e20-d346-4547-a5e2-935d5d239c68</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>991ccad2-b7ac-44ce-9d39-cd0ce49001df</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>3d93bc91-45a8-4afa-b3c5-1a3b90f433a7</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>c0d15d0f-4f0e-44d2-9998-b354cfc20ea5</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>fc113067-6a98-45a7-9df3-38f5eab2230e</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6872b289-2afe-416d-8187-c453523f663b</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>43328db9-d11e-4075-8876-f729a63ccd4e</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d3c23566-d472-48eb-b347-b8bbbe0d7d1b</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>2a666ed2-e400-42af-bd2f-981014675c05</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>8f234a87-9868-4ebd-bc6c-88016b9ff979</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>a0c99232-9f1c-41a6-8a99-742b32d00f08</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>4e18621b-9815-4c4a-867a-8b9bc518054a</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>126b0b0d-1770-4fdd-8c50-a054eeff2dd2</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6451a558-7f9c-4cba-86d9-1041c00caff7</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d3e90ab5-c47f-4f1a-b1fa-c7396971a70e</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>a88079ad-d696-4939-ba28-e891e325790b</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>f0f19705-a1e3-4be9-884a-7ed3066a36d6</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>29ee046a-088e-4e4e-af04-14d77ceb0864</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6884bade-993c-4679-9fe5-be5ad401c71b</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>72d1d631-e1e4-4e87-ab1d-1870abad1c3e</tstamps>
+    </comp>
+    <comp ref="D60">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>ae5c14a7-da24-45c3-bce5-0cbbb6050ac2</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>e855d3c7-7cbe-4d73-93e9-071b4051efb1</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>3d363806-fc60-42d8-88df-88593105648d</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d7ec3df0-d6c6-4e55-896a-c59c8c7f955d</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>f94a8bc0-2190-4dac-99c7-5d8297cbb02d</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7ba3ff07-2734-4fb8-a05b-4c6eef70de7d</tstamps>
+    </comp>
+    <comp ref="D66">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>3c11d8ea-caf4-4c12-8fd6-3140dd50b39b</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d2c05edc-8d6b-490c-bf1b-65b0ab6faf7b</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d635f631-f42e-4d85-bb3b-0a0fb406ef15</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b50e3635-4ca4-4b19-81a7-4566a5e5d07d</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>95297dcd-f828-4030-82e5-d9d22904909b</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>b9b7a3a1-686a-48e7-9adc-6dcf3f7646d3</tstamps>
+    </comp>
+    <comp ref="D72">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>877c8c4d-4a3d-495c-bb8f-b0b10743afd1</tstamps>
+    </comp>
+    <comp ref="D73">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>11ddad21-508d-49ff-beb5-b1b1486b71e8</tstamps>
+    </comp>
+    <comp ref="D74">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>2e881ad3-34cd-4aa4-8bce-4a8ee2d4fb65</tstamps>
+    </comp>
+    <comp ref="D75">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>80e457b0-0076-4763-b4c3-704a92f77e2f</tstamps>
+    </comp>
+    <comp ref="D76">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>82422234-e6c2-41b3-a155-fb7e5b932d5f</tstamps>
+    </comp>
+    <comp ref="D77">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7e994033-fcde-4d36-9437-d214bb53cc5d</tstamps>
+    </comp>
+    <comp ref="D78">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>47f8ff46-ac26-42a6-95b2-5bc88030afea</tstamps>
+    </comp>
+    <comp ref="D79">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>81eaf74b-9205-4064-ad60-8533667d8fdf</tstamps>
+    </comp>
+    <comp ref="D80">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>784d8db6-061d-4246-b0e2-aba102fa9885</tstamps>
+    </comp>
+    <comp ref="D81">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>5a562715-8664-4ba0-8a6e-fc3a2d22c098</tstamps>
+    </comp>
+    <comp ref="D82">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>23449996-66df-4fcd-886c-5df07e496ece</tstamps>
+    </comp>
+    <comp ref="D83">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>a2b13b69-fd95-44c9-b361-09f15757f657</tstamps>
+    </comp>
+    <comp ref="D84">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>63fbf54e-7ba4-4c78-828c-83c713c06ea7</tstamps>
+    </comp>
+    <comp ref="D85">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>404fbe6e-1d5a-433c-a4d1-9974bb68cba0</tstamps>
+    </comp>
+    <comp ref="D86">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>c1705717-12b8-466d-9fb3-bc66d5a525a0</tstamps>
+    </comp>
+    <comp ref="D87">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>5cab4be9-87ce-4600-9809-515cb0150b95</tstamps>
+    </comp>
+    <comp ref="D88">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6c16da01-08a8-466e-b223-f95fdf5eb05b</tstamps>
+    </comp>
+    <comp ref="D89">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>bbbc23dc-61ed-4459-b250-98de95754b41</tstamps>
+    </comp>
+    <comp ref="D90">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7b1df3e9-b367-4655-a4fa-4593420c7b96</tstamps>
+    </comp>
+    <comp ref="D91">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7c2bd798-7044-4f2b-82b6-43213f4f3877</tstamps>
+    </comp>
+    <comp ref="D92">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>6af3f374-7f9e-4dcb-87c2-645445a406f0</tstamps>
+    </comp>
+    <comp ref="D93">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>8ef4edef-d1aa-4ac9-a082-bd181588d1ce</tstamps>
+    </comp>
+    <comp ref="D94">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>68125afc-c03f-4a34-b824-75b2bdfc1cb9</tstamps>
+    </comp>
+    <comp ref="D95">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>15cfa913-4e67-4caa-a893-06577ef8961c</tstamps>
+    </comp>
+    <comp ref="D96">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>46643d45-0ca3-4066-afa7-7f149ffdd127</tstamps>
+    </comp>
+    <comp ref="D97">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>f59ba102-6bb9-4f87-8c19-4451b243894f</tstamps>
+    </comp>
+    <comp ref="D98">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>0272d007-0151-44c7-a2d4-9518e54a90d7</tstamps>
+    </comp>
+    <comp ref="D99">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>3f30ac22-678b-4e62-aaa3-2a7ade489e19</tstamps>
+    </comp>
+    <comp ref="D100">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>96f2b675-fccc-4cb7-821f-91a9d8dadacb</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>ad557a63-aa4e-4a94-be3f-3e25c6c359ae</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>75006e23-51d3-4a6c-9b6f-0b0cf74f0212</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>349e0ace-f623-4d34-a3f1-05161c2f01ba</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>2fe198d4-7126-4f56-a59b-91fdda55f3f0</tstamps>
+    </comp>
+    <comp ref="D105">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>924a1769-d0c4-4830-94aa-39e63ce07bb6</tstamps>
+    </comp>
+    <comp ref="D106">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>e4eb4916-500b-4444-be9d-dae4f1212641</tstamps>
+    </comp>
+    <comp ref="D107">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>85c98346-70b7-4a08-adc9-dfa8c369c37f</tstamps>
+    </comp>
+    <comp ref="D108">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7e1c7326-022b-474d-89ec-e23081fdaf8b</tstamps>
+    </comp>
+    <comp ref="D109">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>4fba2f76-f249-4ae3-b1fc-350a5a81d74b</tstamps>
+    </comp>
+    <comp ref="D110">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>c33bf9a0-bb61-4005-ab50-010ece943d74</tstamps>
+    </comp>
+    <comp ref="D111">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>868671c7-2bbb-4d4a-bb5f-3a94bacbd6fa</tstamps>
+    </comp>
+    <comp ref="D112">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>c4f9958a-5ceb-4503-9bb1-9cee9527f007</tstamps>
+    </comp>
+    <comp ref="D113">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>196b9f9e-0295-4df1-ad0b-58829aa98039</tstamps>
+    </comp>
+    <comp ref="D114">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>14829588-7dcb-4b65-b059-73cb2b625ec6</tstamps>
+    </comp>
+    <comp ref="D115">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>335713fe-9d94-46ae-941a-7aeab3b66d79</tstamps>
+    </comp>
+    <comp ref="D116">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7a2cd164-3d16-4a2f-a61f-dfd6a741b0d4</tstamps>
+    </comp>
+    <comp ref="D117">
+      <value>D</value>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>d83b383f-aef0-409a-b367-1e925f1483c3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>52ef6875-e1ef-4048-83a5-7c6d20ac17cd</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>7c78854f-6813-4089-b8dd-c37969cb83fd</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1a175200-f442-4cc7-8d81-70f2ae9aa307</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1ae5803f-eed6-4430-8a06-08c7d219b5fa</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1b34b26b-d70e-47d5-80ea-af478008c7d9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x10_Pin</value>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value="Actuators"/>
+      <property name="Sheetfile" value="actuators.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Actuators/" tstamps="/9fd3510d-4783-4a5a-9659-448e8c5e3812/"/>
+      <tstamps>1f3fc1d3-3cad-40f4-9c3a-bbf95fd941db</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>609e1666-d97c-40ae-8896-868b750196d8</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>5a400b7f-8eae-4020-bad0-330ab5835f8c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1µ</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>1b4f5a93-c942-4df2-84f1-5ceb53adae82</tstamps>
+    </comp>
+    <comp ref="D120">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>e6a26d87-02d8-411f-af52-7d768313b7b1</tstamps>
+    </comp>
+    <comp ref="D121">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>b362371f-718c-4076-87e2-4a8736b1f2ca</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Pin</value>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>abb9cd84-724d-4901-84e6-3dcc3bbc0cbd</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>f85a4f44-d7eb-40d4-bc12-a12c558b8a7e</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>6d12a5dc-74e0-44c2-8558-e7461f8932d4</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>BC547</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>218a189c-8b26-4713-aae0-3cd9f74f1210</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>1k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>a2745492-39fb-4350-be62-f9e6f18757f5</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>aa5f2c29-2e65-412f-921d-d418a12cd67e</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>100k</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>03670ffe-c3da-4f80-93ea-1f8a07a23a29</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>1K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>8ca9d77b-3399-4c8c-8265-36e9102fd905</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>1K</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>29e4da3d-70d4-4dc8-954a-fa69a427ce0c</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>82</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>39d0a06e-1332-41bb-b281-f15c4d425404</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TSOP384xx</value>
+      <footprint>OptoDevice:Vishay_MINICAST-3Pin</footprint>
+      <datasheet>http://www.vishay.com/docs/82491/tsop382.pdf</datasheet>
+      <libsource lib="Interface_Optical" part="TSOP384xx" description="Photo Modules for PCM Remote Control Systems"/>
+      <property name="Sheetname" value="IR Beam"/>
+      <property name="Sheetfile" value="ir_beam.kicad_sch"/>
+      <property name="ki_description" value="Photo Modules for PCM Remote Control Systems"/>
+      <property name="ki_keywords" value="opto IR receiver"/>
+      <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
+      <tstamps>6f6e4f41-0502-4348-beb9-8bb7747c91a0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM301">
+      <description>Operational Amplifier, DIP-8/TO-99-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM301</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="COMP" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="C/B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Pin">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Pin">
+      <description>Generic connector, single row, 01x10, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_Darlington_BCE">
+      <description>NPN Darlington transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_Darlington_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_Darlington_BCE">
+      <description>PNP Darlington transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_Darlington_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode_Bridge" part="KBU6G">
+      <description>Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package</description>
+      <docs>http://www.vishay.com/docs/88656/kbu6.pdf</docs>
+      <footprints>
+        <fp>Diode*Bridge*Vishay*KBU*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KBU6G</field>
+        <field name="Footprint">Diode_THT:Diode_Bridge_Vishay_KBU</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88656/kbu6.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Optical" part="TSOP384xx">
+      <description>Photo Modules for PCM Remote Control Systems</description>
+      <docs>http://www.vishay.com/docs/82491/tsop382.pdf</docs>
+      <footprints>
+        <fp>Vishay*MINICAST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSOP384xx</field>
+        <field name="Footprint">OptoDevice:Vishay_MINICAST-3Pin</field>
+        <field name="Datasheet">http://www.vishay.com/docs/82491/tsop382.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vs" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM723_DIP14">
+      <description>Linear Regulator (adjustable), DIP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm723.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM723_DIP14</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm723.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="ILIM" type="input"/>
+        <pin num="3" name="CSEN" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="VREF" type="power_out"/>
+        <pin num="7" name="V-" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="VZ" type="input"/>
+        <pin num="10" name="Vout" type="power_out"/>
+        <pin num="11" name="VC" type="power_in"/>
+        <pin num="12" name="V+" type="power_in"/>
+        <pin num="13" name="FC" type="input"/>
+        <pin num="14" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_Array" part="TBD62783A">
+      <description>8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W</description>
+      <docs>http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&amp;prodName=TBD62783APG</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOP*7.0x12.5mm*P1.27mm*</fp>
+        <fp>SSOP*4.4x6.5mm*P0.65mm*</fp>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TBD62783A</field>
+        <field name="Datasheet">http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&amp;prodName=TBD62783APG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="I8" type="input"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="O8" type="open_emitter"/>
+        <pin num="12" name="O7" type="open_emitter"/>
+        <pin num="13" name="O6" type="open_emitter"/>
+        <pin num="14" name="O5" type="open_emitter"/>
+        <pin num="15" name="O4" type="open_emitter"/>
+        <pin num="16" name="O3" type="open_emitter"/>
+        <pin num="17" name="O2" type="open_emitter"/>
+        <pin num="18" name="O1" type="open_emitter"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_Array" part="ULN2803A">
+      <description>Darlington Transistor Arrays, SOIC18/DIP18</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uln2803a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2803A</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uln2803a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="I8" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="COM" type="passive"/>
+        <pin num="11" name="O8" type="open_collector"/>
+        <pin num="12" name="O7" type="open_collector"/>
+        <pin num="13" name="O6" type="open_collector"/>
+        <pin num="14" name="O5" type="open_collector"/>
+        <pin num="15" name="O4" type="open_collector"/>
+        <pin num="16" name="O3" type="open_collector"/>
+        <pin num="17" name="O2" type="open_collector"/>
+        <pin num="18" name="O1" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode_Bridge">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode_Bridge.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Optical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Interface_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_Array">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_Array.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Actuators/Q1">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="2" name="/Actuators/Q2">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="3" name="/Actuators/Q3">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D69" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D73" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D75" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D77" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D79" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="4" name="/Actuators/Q4">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D60" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="5" name="/Actuators/Q5">
+      <node ref="D80" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D82" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D84" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D86" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D88" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D90" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D92" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D94" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D96" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D98" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="6" name="/Actuators/Q6">
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D105" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D107" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D109" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D111" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D113" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D115" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D117" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D99" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="7" name="/Actuators/Q7">
+      <node ref="D100" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D78" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D81" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="/Actuators/Q8">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D76" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D83" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="9" name="/Actuators/Q9">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D74" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D85" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="10" name="/Actuators/Q10">
+      <node ref="D106" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D72" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D87" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="11" name="/Actuators/Q11">
+      <node ref="D108" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D89" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="/Actuators/Q12">
+      <node ref="D110" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D68" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D91" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="13" name="/Actuators/Q13">
+      <node ref="D112" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D66" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D93" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="/Actuators/Q14">
+      <node ref="D114" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D95" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="/Actuators/Q15">
+      <node ref="D116" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D97" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q18" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q19" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="I1" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="LINE">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pintype="passive"/>
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="D2" pin="3" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="18" name="NEUT">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-+)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="VC" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(D1--)">
+      <node ref="D1" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="D2" pin="4" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D2-+)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D3-K)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D13-K)">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D14-K)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D15-K)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D16-K)">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D17-K)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D18-K)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D23-K)">
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D25-K)">
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D27-K)">
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D29-K)">
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D31-K)">
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D33-K)">
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D35-K)">
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D37-K)">
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D39-K)">
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D42-K)">
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D44-K)">
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D46-K)">
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D48-K)">
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D50-K)">
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D52-K)">
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D54-K)">
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D56-K)">
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D58-K)">
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D60" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D61-K)">
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D63-K)">
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D65-K)">
+      <node ref="D65" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D66" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D67-K)">
+      <node ref="D67" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D69-K)">
+      <node ref="D69" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D71-K)">
+      <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D72" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D73-K)">
+      <node ref="D73" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D74" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D75-K)">
+      <node ref="D75" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D76" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D77-K)">
+      <node ref="D77" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D78" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D79" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D80-A)">
+      <node ref="D80" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D81" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D82" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D83-A)">
+      <node ref="D83" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D84" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D85-A)">
+      <node ref="D85" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D86" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D87-A)">
+      <node ref="D87" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D88" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D89-A)">
+      <node ref="D89" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D90" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D91-A)">
+      <node ref="D91" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D92" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D93-A)">
+      <node ref="D93" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D94" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D95-A)">
+      <node ref="D95" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D96" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D97-A)">
+      <node ref="D97" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D98" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D100-A)">
+      <node ref="D100" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D99" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D102-A)">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D104-A)">
+      <node ref="D104" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D105" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D106-A)">
+      <node ref="D106" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D107" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D108-A)">
+      <node ref="D108" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D109" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D110-A)">
+      <node ref="D110" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D111" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D112-A)">
+      <node ref="D112" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D113" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D114-A)">
+      <node ref="D114" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D115" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D116-A)">
+      <node ref="D116" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D117" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D120-A)">
+      <node ref="D120" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D120-K)">
+      <node ref="D120" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D121" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D121-K)">
+      <node ref="D121" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q20" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(J8-Pin_2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(J8-Pin_3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(J8-Pin_4)">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="I4" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(J8-Pin_5)">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="I5" pintype="input"/>
+    </net>
+    <net code="85" name="Net-(J8-Pin_6)">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(J8-Pin_7)">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="I7" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(J8-Pin_8)">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(J9-Pin_1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(J9-Pin_2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(J9-Pin_3)">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="I4" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(J9-Pin_4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="I5" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(J9-Pin_5)">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(J9-Pin_6)">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="I7" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(J9-Pin_7)">
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(J9-Pin_8)">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="96" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(Q4-B)">
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(Q5-G)">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(Q6-B)">
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(Q7-G)">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(Q8-B)">
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(Q9-G)">
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(Q10-B)">
+      <node ref="Q10" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(Q10-E)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="COM" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="VCC" pintype="power_in"/>
+      <node ref="XICON1" pin="1" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(Q11-G)">
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(Q12-B)">
+      <node ref="Q12" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="Vout" pintype="power_out"/>
+    </net>
+    <net code="109" name="Net-(Q12-E)">
+      <node ref="Q12" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="ILIM" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="CSEN" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="XICON1" pin="2" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(Q13-B)">
+      <node ref="Q13" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(Q14-G)">
+      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="112" name="Net-(Q15-G)">
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="113" name="Net-(Q16-G)">
+      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="114" name="Net-(Q18-B)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="115" name="Net-(Q18-C)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="Q18" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="116" name="Net-(Q19-B)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="117" name="Net-(Q19-C)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="Q19" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(Q20-B)">
+      <node ref="Q20" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="119" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="output"/>
+    </net>
+    <net code="120" name="Net-(U1-O1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="O1" pintype="open_collector"/>
+    </net>
+    <net code="121" name="Net-(U1-O2)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="O2" pintype="open_collector"/>
+    </net>
+    <net code="122" name="Net-(U1-O3)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="O3" pintype="open_collector"/>
+    </net>
+    <net code="123" name="Net-(U1-O4)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="O4" pintype="open_collector"/>
+    </net>
+    <net code="124" name="Net-(U1-O5)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="O5" pintype="open_collector"/>
+    </net>
+    <net code="125" name="Net-(U1-O6)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="O6" pintype="open_collector"/>
+    </net>
+    <net code="126" name="Net-(U2-+)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="127" name="Net-(U2--)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="128" name="Net-(U2-FC)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="FC" pintype="input"/>
+    </net>
+    <net code="129" name="Net-(U2-VREF)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VREF" pintype="power_out"/>
+    </net>
+    <net code="130" name="Net-(U3--)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="131" name="Net-(U3-BAL)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="BAL" pintype="input"/>
+    </net>
+    <net code="132" name="Net-(U3-C{slash}B)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="C/B" pintype="input"/>
+    </net>
+    <net code="133" name="Net-(U4-O1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="O1" pintype="open_emitter"/>
+    </net>
+    <net code="134" name="Net-(U4-O3)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="O3" pintype="open_emitter"/>
+    </net>
+    <net code="135" name="Net-(U5-O1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="O1" pintype="open_emitter"/>
+    </net>
+    <net code="136" name="Net-(U5-O2)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="O2" pintype="open_emitter"/>
+    </net>
+    <net code="137" name="Net-(U5-O3)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="O3" pintype="open_emitter"/>
+    </net>
+    <net code="138" name="Net-(U5-O4)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="O4" pintype="open_emitter"/>
+    </net>
+    <net code="139" name="Net-(U5-O5)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="O5" pintype="open_emitter"/>
+    </net>
+    <net code="140" name="Net-(U5-O6)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="O6" pintype="open_emitter"/>
+    </net>
+    <net code="141" name="Net-(U5-O7)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="O7" pintype="open_emitter"/>
+    </net>
+    <net code="142" name="VCC">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="Vs" pintype="power_in"/>
+    </net>
+    <net code="143" name="VCOM">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="144" name="unconnected-(U1-I8-Pad8)">
+      <node ref="U1" pin="8" pinfunction="I8" pintype="input"/>
+    </net>
+    <net code="145" name="unconnected-(U1-O7-Pad12)">
+      <node ref="U1" pin="12" pinfunction="O7" pintype="open_collector"/>
+    </net>
+    <net code="146" name="unconnected-(U1-O8-Pad11)">
+      <node ref="U1" pin="11" pinfunction="O8" pintype="open_collector"/>
+    </net>
+    <net code="147" name="unconnected-(U2-NC-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U2-NC-Pad8)">
+      <node ref="U2" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U2-NC-Pad14)">
+      <node ref="U2" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U2-VZ-Pad9)">
+      <node ref="U2" pin="9" pinfunction="VZ" pintype="input"/>
+    </net>
+    <net code="151" name="unconnected-(U3-COMP-Pad5)">
+      <node ref="U3" pin="5" pinfunction="COMP" pintype="input"/>
+    </net>
+    <net code="152" name="unconnected-(U4-I2-Pad2)">
+      <node ref="U4" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="153" name="unconnected-(U4-I4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="I4" pintype="input"/>
+    </net>
+    <net code="154" name="unconnected-(U4-I5-Pad5)">
+      <node ref="U4" pin="5" pinfunction="I5" pintype="input"/>
+    </net>
+    <net code="155" name="unconnected-(U4-I6-Pad6)">
+      <node ref="U4" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="156" name="unconnected-(U4-I7-Pad7)">
+      <node ref="U4" pin="7" pinfunction="I7" pintype="input"/>
+    </net>
+    <net code="157" name="unconnected-(U4-I8-Pad8)">
+      <node ref="U4" pin="8" pinfunction="I8" pintype="input"/>
+    </net>
+    <net code="158" name="unconnected-(U4-O2-Pad17)">
+      <node ref="U4" pin="17" pinfunction="O2" pintype="open_emitter"/>
+    </net>
+    <net code="159" name="unconnected-(U4-O4-Pad15)">
+      <node ref="U4" pin="15" pinfunction="O4" pintype="open_emitter"/>
+    </net>
+    <net code="160" name="unconnected-(U4-O5-Pad14)">
+      <node ref="U4" pin="14" pinfunction="O5" pintype="open_emitter"/>
+    </net>
+    <net code="161" name="unconnected-(U4-O6-Pad13)">
+      <node ref="U4" pin="13" pinfunction="O6" pintype="open_emitter"/>
+    </net>
+    <net code="162" name="unconnected-(U4-O7-Pad12)">
+      <node ref="U4" pin="12" pinfunction="O7" pintype="open_emitter"/>
+    </net>
+    <net code="163" name="unconnected-(U4-O8-Pad11)">
+      <node ref="U4" pin="11" pinfunction="O8" pintype="open_emitter"/>
+    </net>
+    <net code="164" name="unconnected-(U5-I8-Pad8)">
+      <node ref="U5" pin="8" pinfunction="I8" pintype="input"/>
+    </net>
+    <net code="165" name="unconnected-(U5-O8-Pad11)">
+      <node ref="U5" pin="11" pinfunction="O8" pintype="open_emitter"/>
+    </net>
+  </nets>
+</export>
