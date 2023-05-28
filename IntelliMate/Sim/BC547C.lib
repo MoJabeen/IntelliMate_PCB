@@ -1,0 +1,4 @@
+.model BC547C NPN (BF=730 NE=1.4 ISE=29.5F IKF=80M IS=60F VAF=25 ikr=12m
++ BR=10 NC=2 VAR=10 RB=280 RE=1 RC=40 VJE=.48 tr=.3u tf=.5n
++ cje=12p vje=.48 mje=.5 cjc=6p vjc=.7 
++ isc=47.6p kf=2f)
