@@ -1104,7 +1104,7 @@
     (property "Reference" "C1" (at 100.33 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 100.33 53.975 0)
+    (property "Value" "0.1µ" (at 100.33 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 97.4852 55.88 0)
@@ -1411,7 +1411,7 @@
   (symbol (lib_id "Device:LED") (at 93.98 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b362371f-718c-4076-87e2-4a8736b1f2ca)
-    (property "Reference" "D121" (at 97.79 108.9025 90)
+    (property "Reference" "IR333C1" (at 97.79 108.9025 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 97.79 111.4425 90)
@@ -1428,7 +1428,7 @@
     (instances
       (project "IntelliMate"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/a9279e42-41ff-46c0-91fb-0409ff955dc7"
-          (reference "D121") (unit 1)
+          (reference "IR333C1") (unit 1)
         )
       )
     )
@@ -1512,7 +1512,7 @@
   (symbol (lib_id "Device:LED") (at 93.98 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6a26d87-02d8-411f-af52-7d768313b7b1)
-    (property "Reference" "D120" (at 97.79 98.7425 90)
+    (property "Reference" "IR333-A1" (at 97.79 98.7425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 97.79 101.2825 90)
@@ -1529,7 +1529,7 @@
     (instances
       (project "IntelliMate"
         (path "/d2cbed07-112f-4ca6-afcf-4062e0b58893/a9279e42-41ff-46c0-91fb-0409ff955dc7"
-          (reference "D120") (unit 1)
+          (reference "IR333-A1") (unit 1)
         )
       )
     )

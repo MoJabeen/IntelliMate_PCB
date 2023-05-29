@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/mohammadjabeen/Documents/KiCad/IntelliMate_PCB/IntelliMate/IntelliMate.kicad_sch</source>
-    <date>2023 May 28, Sunday 15:22:40</date>
+    <date>2023 May 28, Sunday 16:42:49</date>
     <tool>Eeschema 7.0.2-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -89,7 +89,7 @@
       <tstamps>5fc62870-be2a-42c1-a56a-3649daafd488</tstamps>
     </comp>
     <comp ref="C3">
-      <value>C</value>
+      <value>100p</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
@@ -2669,7 +2669,7 @@
       <tstamps>1f3fc1d3-3cad-40f4-9c3a-bbf95fd941db</tstamps>
     </comp>
     <comp ref="C1">
-      <value>C</value>
+      <value>0.1µ</value>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="IR Beam"/>
       <property name="Sheetfile" value="ir_beam.kicad_sch"/>
@@ -2698,7 +2698,7 @@
       <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
       <tstamps>1b4f5a93-c942-4df2-84f1-5ceb53adae82</tstamps>
     </comp>
-    <comp ref="D120">
+    <comp ref="IR333-A1">
       <value>LED</value>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="IR Beam"/>
@@ -2708,7 +2708,7 @@
       <sheetpath names="/IR Beam/" tstamps="/a9279e42-41ff-46c0-91fb-0409ff955dc7/"/>
       <tstamps>e6a26d87-02d8-411f-af52-7d768313b7b1</tstamps>
     </comp>
-    <comp ref="D121">
+    <comp ref="IR333C1">
       <value>LED</value>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sheetname" value="IR Beam"/>
@@ -3770,16 +3770,16 @@
       <node ref="D117" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(D120-A)">
-      <node ref="D120" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="78" name="Net-(IR333-A1-A)">
+      <node ref="IR333-A1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R46" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(D120-K)">
-      <node ref="D120" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D121" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="79" name="Net-(IR333-A1-K)">
+      <node ref="IR333-A1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IR333C1" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(D121-K)">
-      <node ref="D121" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="80" name="Net-(IR333C1-K)">
+      <node ref="IR333C1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Q20" pin="1" pinfunction="C" pintype="passive"/>
     </net>
     <net code="81" name="Net-(J8-Pin_2)">
